@@ -40,4 +40,11 @@
       <Compile Include="Day4\Part1Test.fs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Include="Day5\Parser.fs" />
+      <Compile Include="Day5\ParserTest.fs" />
+      <Compile Include="Day5\Part1.fs" />
+      <Compile Include="Day5\Part1Test.fs" />
+    </ItemGroup>
+
 </Project>

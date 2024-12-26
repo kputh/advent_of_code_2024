@@ -45,6 +45,8 @@
       <Compile Include="Day5\ParserTest.fs" />
       <Compile Include="Day5\Part1.fs" />
       <Compile Include="Day5\Part1Test.fs" />
+      <Compile Include="Day5\Part2.fs" />
+      <Compile Include="Day5\Part2Test.fs" />
     </ItemGroup>
 
 </Project>

@@ -72,10 +72,7 @@ let ``Can find middle page number`` () =
 
 [<Fact>]
 let ``Exercise result`` () =
-    let result =
-        rawInput
-        |> parseOrderingRulesAndUpdates
-        |> filterByRules
-        |> sumOfMedianPageNumbers
+    let rules, updates = parseOrderingRulesAndUpdates rawInput
+    let result = updates |> filterByRules rules |> sumOfMedianPageNumbers
 
     result |> should equal 4281

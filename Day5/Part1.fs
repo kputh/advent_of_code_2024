@@ -14,7 +14,7 @@ let satisfiesRule update (firstPage, secondPage) =
 let isCorrectlyOrdered rules update =
     Array.forall (satisfiesRule update) rules
 
-let filterByRules (rules, updates) =
+let filterByRules rules updates =
     Array.filter (isCorrectlyOrdered rules) updates
 
 let getMedian arr =

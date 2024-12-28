@@ -34,10 +34,13 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Compile Include="Day4\Input.fs" />
       <Compile Include="Day4\Parser.fs" />
       <Compile Include="Day4\ParserTest.fs" />
       <Compile Include="Day4\Part1.fs" />
       <Compile Include="Day4\Part1Test.fs" />
+      <Compile Include="Day4\Part2.fs" />
+      <Compile Include="Day4\Part2Test.fs" />
     </ItemGroup>
 
     <ItemGroup>
